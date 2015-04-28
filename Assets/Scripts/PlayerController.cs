@@ -12,14 +12,12 @@ public class PlayerController : MonoBehaviour
     public int PowerAtomCount;
     public Transform Explosion;
 
-    public string FinalLevel;
     public int CollectiblesNeededNextLevel;
     public int CollectiblesRetrieved;
 
 
     void Start()
     {
-        FinalLevel = "level-2";
         CollectiblesNeededNextLevel = 5;
         CollectiblesRetrieved = 0;
         PowerAtomCount = 0;
@@ -121,7 +119,7 @@ public class PlayerController : MonoBehaviour
             CollectiblesRetrieved++;
             if (CollectiblesRetrieved >= CollectiblesNeededNextLevel)
             {
-                if (Application.loadedLevelName.ToLower().Equals(FinalLevel.ToLower()))
+                if (Application.levelCount == (Application.loadedLevel + 1))
                 {
                     //Game Winner!
                     WinnerText.gameObject.SetActive(true);
@@ -130,9 +128,9 @@ public class PlayerController : MonoBehaviour
                 else
                 {
                     //beat current level, load next level
-                    LevelText.text = "Level 2";
-                    ErrorText.text = "Congratulations, on to level 2!";
-                    Application.LoadLevel("level-2");
+                    int newLevel = Application.loadedLevel + 2;
+                    ErrorText.text = string.Format("Congratulations, on to level {0}!", newLevel);
+                    Application.LoadLevel(string.Format("level-{0}", newLevel));
                 }
 
             }

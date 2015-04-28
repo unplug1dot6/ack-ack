@@ -1,0 +1,11 @@
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\obj\Debug\UnityVS.ack-ack.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\obj\Debug\Assembly-CSharp.dll
+C:\Users\unplug1.6\Documents\GitHub\ack-ack\obj\Debug\Assembly-CSharp.pdb
